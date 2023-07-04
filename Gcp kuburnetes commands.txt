@@ -1,0 +1,8 @@
+Gcp kuburnetes commands
+gcloud auth login
+gcloud config set project PROJECT_ID
+gcloud services enable container.googleapis.com
+gcloud container clusters create CLUSTER_NAME
+gcloud container clusters create CLUSTER_NAME --num-nodes=3 --machine-type=n1-standard-2 --zone=us-central1-a
+gcloud container clusters list
+
