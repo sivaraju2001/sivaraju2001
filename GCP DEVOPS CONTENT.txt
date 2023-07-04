@@ -1,0 +1,396 @@
+kubernetics:
+
+What is a Container?
+
+A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, ...
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What type of container is Docker?
+
+Types of Containers in Docker
+Stateful Containers.
+Stateless Containers.
+Ephemeral Container.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is NODE ?
+
+Node will contain an N numbers of Pods.Usually ,it is a physical server ,virtual machine or any server.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+what is Pod ?
+
+A Pod is smallest unit of Kubernetics .it will run only one applicatipon on each pod. 
+Each pod has its own Ip adress and a new Ip adress will be added for Creation of pod.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+ what is Volumes?
+
+ Each time a node is restarted the data on it is deleted, to 
+  avoid this Kubernetes has the Volumes component, which 
+ is meant to get persistence
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+whais app Engine?
+
+.it is a PAAS resources
+ .App engine is fully Mannaged Infrastructure.
+ .Build High scalable application on a fully mannaged platform using open and familar languages and tools.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+what is cloud Run ?
+.it is a PAAS resources.
+.Devlop And deploy high scalable containerzied application does not need a cluster.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ what is load balancer ?
+
+. load balancing to distribute incoming traffic across multiple instances and ensuring high availability and scalability of applications.
+. It also provides regular health check-ups for the cloud application
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+what is Replicaset?
+
+.it will maintain  the current and desired state of the cluster.
+.suppose if any pod delted automatically the replicaset will created the pod.
+.Replica is used for : Auto scalling,high avilability,Zero down time.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+10. What is Google Cloud SDK?
+
+•	Google Cloud SDK consists of a bunch of command-line tools.
+•	It is used for developing the Google cloud.
+•	You can access big query, cloud storage, compute Engine and other services with the help of the command line.
+•	The Google Cloud SDK consists of both the client libraries and API libraries.
+•	These tools and libraries let us work with the Virtual Machine instances, handle computer engine networks, storage and firewalls, etc.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+How to create a project?
+
+You can create a project by following the steps given below:
+•	Open the Google Cloud Platform Console
+•	When prompted, create a new project or select an existing project
+•	Follow the prompts to set up billing.
+Note: If you are new to the Google Cloud Platform, you can use the free trial credit to make the payment.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+. What is binary authorization google cloud?
+
+•Google Kubernetes Engine (GKE) and Cloud Run use binary authorization to make sure that only trustworthy container images are deployed. 
+•You can make sure that images are signed by trustworthy authorities throughout the development and ask for signature validation when                                        deploying. This is the power of binary authorization.
+•Validation makes sure that only confirmed pictures are included in the build-and-release process. This gives you more control over your container                       environment.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+. What is VPC?
+
+•VPC stands for Virtual Private Cloud. 
+. vpc is a   software defined process.
+•it provide network functionality to our gcp resources Google Kubernetes Engine clusters, compute Engine’s VM instances and many other resources.
+•
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+How do you handle infrastructure as code in GCP?
+
+As a Google Professional Cloud DevOps Engineer, I handle infrastructure as code (IAC) in GCP through the use of various tools and technologies.
+1.Terraform: This is an open-source tool that allows us to create, manage, and manipulate infrastructure as code. It helps us in automating the                                                        deployment and management of resources on GCP.
+2 .Cloud Deployment Manager: This is a GCP service that enables us to define, deploy, and manage cloud resources using YAML templates. The                                                                             templates can be version-controlled, making it easier to track changes and revert back if needed.
+3.Google Cloud SDK: The Google Cloud SDK provides command-line tools and libraries for managing resources on GCP. We can use the SDK to                                                                     automate the creation of resources and manage them through scripts.
+4.Kubernetes: Kubernetes is a powerful container orchestration tool that we can use to manage containers and infrastructure as code. With Kubernetes, we                                      can define, deploy, and manage our resources in a scalable and efficient manner.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Can you explain how you would approach monitoring and logging in a GCP environment?
+
+I would approach monitoring and logging in a GCP environment by following these steps:
+1.Define the requirements: Before starting the monitoring and logging process, I would gather information about the system’s architecture, critical          services, and data flow. This will help me understand the various components that need to be monitored and logged.
+2.Select the appropriate tools: GCP offers various tools for monitoring and logging, such as Stackdriver, Cloud Logging, and Cloud Monitoring. I would select       the right tools based on the requirements defined in step 1.
+3.Configure the monitoring and logging tools: After selecting the appropriate tools, I would configure them to collect data from the various components      and services of the system. This may include setting up alerts, custom dashboards, and log retention policies.
+4.Integrate with existing systems: If the organization already has existing monitoring and logging systems, I would integrate the GCP tools with them to     ensure seamless data flow and centralized management.
+5.Implement logging for critical services: I would implement logging for critical services, such as application logs, database logs, and network logs, to       capture relevant information for debugging and auditing purposes.
+6.Monitor and review logs regularly: I would set up regular monitoring and review of logs to identify any issues or patterns that may indicate potential     problems. This will help to proactively identify and resolve issues before they become major problems.
+7.Update and refine the monitoring and logging process: As the system evolves, I would continuously refine and update the monitoring and logging process     to ensure that it remains effective and relevant.
+     By following these steps, I would be able to effectively monitor and log a GCP environment, ensuring that critical services are functioning as expected,       and potential issues are identified and addressed proactively.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Can you discuss a time when you troubleshot and resolved a complex issue in a production environment?
+
+ I have experience troubleshooting and resolving complex issues in production environments.
+One specific example I recall involved a production service that was experiencing high latency and intermittent failures. After conducting a thorough investigation, I discovered that the root cause was a network bottleneck due to the service’s high traffic volume.
+To resolve the issue, I worked with the networking team to implement a new load balancing strategy that distributed traffic more effectively across multiple servers. Additionally, I optimized the service’s database queries to reduce the load on the database, which improved its overall performance.
+After implementing these changes, the service’s latency was reduced and its reliability improved, resolving the issue and restoring normal operation. Through this experience, I demonstrated my ability to quickly identify and resolve complex production issues, and my commitment to delivering high-quality, stable services.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is your experience with GCP networking, including VPNs, subnets, firewall rules, and load balancing?
+
+As a Google Professional Cloud DevOps Engineer, I have extensive experience in GCP networking and have been working with various components of it, including VPNs, subnets, firewall rules, and load balancing.
+
+VPNs: I have worked with both site-to-site VPNs and client-to-site VPNs on GCP, leveraging the cloud VPN service provided by Google. I have experience in configuring the VPN gateways and setting up routing between the on-premise and cloud networks.
+
+Subnets: I have hands-on experience in creating subnets and configuring routing tables to manage the flow of network traffic within a VPC. I have also worked on designing and implementing custom VPCs, including creating custom subnets and private IPs for different resources.
+
+Firewall rules: I have experience in setting up firewall rules in GCP to manage network traffic and secure the resources within a VPC. I have worked on configuring firewall rules to allow and deny traffic based on source IP, port, and protocol, and have also implemented custom firewall rules to meet specific business requirements.
+
+Load balancing: I have worked on deploying various types of load balancers on GCP, including network load balancers, HTTP(S) load balancers, and SSL proxy load balancers. I have experience in configuring load balancing to distribute incoming traffic across multiple instances and ensuring high availability and scalability of applications.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What are the key features of Cloud Build?
+
+•	Firstly, Extremely fast builds
+•	Secondly, Automate your deployments
+•	Thirdly, Support for multi-cloud
+•	Fourthly, Commit to deployment in minutes
+•	Lastly, Unparalleled privacy
+___________________________________________________________________________________________________________________________________________
+Give some objectives of continuous delivery pipeline using Google Kubernetes Engine (GKE)?
+
+•	Set up your environment by launching Cloud Shell and deploying Spinnaker for Google Cloud.
+•	Create a GKE cluster to deploy the sample application to.
+•	Create a Git repository for a sample app and upload it to Cloud Source Repositories.
+•	Build your Docker image.
+•	Create triggers to create Docker images when your app changes.
+•	Create a Spinnaker pipeline to deploy your app to GKE reliably and consistently.Deploy a code change, triggering the pipeline, and watch the change deploy to production.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+What is multi-tenancy
+
+Multiple users and workloads, referred to as “tenants,” share a multi-tenant cluster. To limit the harm that a compromised tenant may inflict to the cluster and other tenants, multi-tenant cluster operators must segregate tenants from one another. In addition, cluster resources must be distributed evenly across tenants.
+What are the advantages of using multi-tenants?
+•	Firstly, Reduced management overhead
+•	Secondly, Reduced resource fragmentation
+•	Lastly, No need to wait for cluster creation for new tenants
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is a Logging agent?
+
+A Logging agent sends logs to Logging from a variety of third-party applications and system components. Additional logs can be streamed by configuring the agent.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is an Ops agent?
+
+Compared to the basic Cloud Logging agent, the Ops agent integrates logging and metrics into a single agent and is targeted for specific logging workloads that require faster throughput and/or improved resource efficiency. If you have a lot of work to do and the agent’s provided feature set suits your demands, you should go for the Ops Agent.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is alerting?
+
+Problems in your cloud apps are alerted in real time, allowing you to immediately rectify them. An alerting policy in Cloud Monitoring specifies the conditions under which you want to be notified and how you want to be notified. This page gives you a quick rundown of alerting policies.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What are the key features of Cloud Logging?
+•	Logs explorer
+•	Custom logs / Ingestion API
+•	Alerting on logs
+•	Error Reporting
+•	Lastly, Cloud Audit Logs
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What are Cloud audit logs?
+
+Cloud Audit Logs helps security teams maintain audit trails in Google Cloud. Moreover, with this tool, enterprises can attain the same level of transparency over administrative activities and accesses to data in Google Cloud as in on-premises environments.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What is the use of Cloud Monitoring?
+
+•	Firstly, Collect metrics from multi-cloud and hybrid infrastructure in real-time
+•	Secondly, Enable SRE best practices extensively used by Google based on SLOs and SLIs
+•	Thirdly, Visualize insights via dashboards and charts, and generate alerts
+•	Fourthly, Collaborate by integrating with Slack, PagerDuty, and other incident management tools
+•	Lastly, Day zero integration for Google Cloud metrics
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10. What is Docker Compose?
+
+Docker Compose defines and runs multi-container Docker applications. With Compose, a YAML file is used to configure an application’s services. All the services from the configuration can be created and started with a single command.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11. Why use Docker?
+
+Following are the reasons why one should use Docker:
+•	It allows the use of system resources more efficiently
+•	Software delivery cycles are faster with it
+•	Application portability is possible and easy
+•	It is great for the microservices architecture
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------12. What are the drawbacks of Docker?
+
+Docker has a few drawbacks as listed below:
+•	No storage option
+•	Poor monitoring 
+•	Unable to automatically reschedule inactive nodes
+•	Has a complicated automatic horizontal scaling setup
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13. What is Docker Engine?
+
+Docker Engine is an open-source containerization technology that facilitates the development, assembling, shipping, and running of applications with the help of the following components:
+•	Docker Daemon
+•	Docker Engine REST API
+•	Docker CLI
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14. What are registries?
+
+Docker registries provide locations for storing and downloading images. There are two types of registries
+•	Public registry
+•	Private registry
+Public registries include Docker Hub and Docker Cloud.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+15. What are Docker namespaces?
+
+When a container is run, Docker creates a set of isolated workspaces for the container called namespaces. 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+16. How to use Docker?
+
+The Docker command syntax looks like this:
+docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+To run a container, we must incorporate the image on which it is based:
+docker run [docker_image]
+We can run containers if the Docker images are locally stored. If they are not, the software will take it from the online registry.
+Docker can be used to run a container:
+•	Under a specific name
+•	Interactively
+•	And publish container ports
+•	In the background in the detached mode
+•	And mount host volumes
+•	And remove it once the process is complete
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q5. What is a master node in Kubernetes?
+
+A master node is a node that controls and manages the set of worker nodes and resembles a cluster in Kubernetes. 
+
+worker node:
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+. Mention different kinds of Namespaces in Kubernetes.
+
+The namespaces are of three kinds. They are:
+1.	Default: The default namespace that when the cluster comes out of the box with no other namespaces
+2.	Kube-system: The namespace for objects created by Kubernetes. 
+3.	Kube-public: The namespace that can create automatically and is visible and readable publicly throughout the whole cluster. The public aspect of this namespace is only convenient and reserved for cluster usage.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q13. Why do we need Container orchestration in Kubernetes?
+
+Container orchestration is used to communicate with several micro-services that are placed inside a single container of an application to perform various tasks. 
+The use of container orchestration is as follows:
+•	It controls and automates various tasks such as deployment, scaling, etc.,
+•	Reduces the complexity of running time
+•	Scaling becomes easy
+•	It is used to deploy and manage complex containerized applications
+•	Reduces manual setting up services
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+. Mention the list of objects of Kubernetes.
+
+The following is the list of objects used to define the workloads.
+•	Pods
+•	Replication sets and controllers
+•	Deployments
+•	Distinctive identities
+•	Stateful sets
+•	Daemon sets
+•	Jobs and cron jobs
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+What are the features of Kubernetes?
+
+The features of Kubernetes are as follows: 
+•	It provides an automated and advanced scheduler to launch the containers on the cluster
+•	Replacing, rescheduling, and restarting the containers that failed while compilation
+•	It supports rollouts and rollback for the desired state of the containerized application
+•	It can scale up and scale down as per the requirements.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11) Mention the types of controller managers
+
+Types of controller managers are: 1) endpoints controller, 2) service accounts controller, 3) node controller, 4) namespace controller, 5) replication controller, 6) token controller.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13) List various services available in Kubernetes.
+
+Various services available in Kubernetes are 1) Cluster IP service, 2) Load Balancer service, 3) Node Port service, 4) External Name Creation service.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14) Define Cluster IP
+
+The Cluster IP is a Kubernetes service that offers a service inside the cluster that other apps inside cluster can access.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+15) Explain node port
+The node port service is a fundamental way to get external traffic to your service. It opens a particular port on all nodes and forwards network traffic sent to this port.
+______________________________________________________________________________________________________________________________________________
+16) Define kubelet
+
+The kubelet is a service agent which controls and maintains group pf pods by checking pod specification using Kubernetes. The kubelet runs on each node and allows to communicate between a master node and a slave node.
+_____________________________________________________________________________________________________________________________________________
+
+Terraform Process:
+ 
+- Terraform is recognised as Infrastracture as a code, by using terraform we can deploy infrastucture required for the project
+- Currently, By using visual studio code we are deploying infrastructure in gcp cloud.
+- We mainly use four terraform commands which are:
+         -- terraform init --> It ceates a new repository in local desktop and downloads all the dependices for the project.
+         -- terraform validate --> It validate all the code and shows if any errors in code 
+         -- terraform plan --> It review the code and shows which are the services are going to deploy in gcp cloud 
+         -- terraform apply --> It will deploy all the services in gcp cloud
+         -- terraform destroy --> It will delete/removes the deployed infrastucture                                 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Docker Process:
+
+- Docker is considered as containerization tool.
+- Which is used to build image from the code by using docker file and image will run as container. 
+- Docker file contains 9 Elements : 1. From       : To pull the base image
+                                    2. Run        : To execute commands                                                           
+                                    3. Copy       : Copy the file   from local to container                                                                          
+                                    4. CMD        : To provides defaults for an executing container        
+                                    5. Entrypoint : To executing the executables at first time.             
+                                    6. Workdir    : To set the workspace                                                          
+                                    7. ENV        : To set the enivronment variable                                        
+                                    8. Expose     : To provide port to access the inernet      
+                                    9.ADD         to download anything you have to mention the url
+                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Kubernetes Process 
+
+- It is recognised as container orchestration tool, where we can manage multiple appliations in the pods.
+- It has two node : 1. Master Node
+                                               - API Server : handles all communications for a kubernetics clusters.
+                                                - etcd           : Distributes database storing the clusters state.
+                                               - Controller : mannages deployments & Replicasets.
+                                               - Scheduler: Decides the placamnets of jobs.
+
+                    2. Worker Node
+                                     - Kubelet: It mannages communication with master node .
+                                    - Kubeproxy :it acts as a network proxy it will maintain the entire application .
+                                    - Container Runtime (Docker)  :   
+
+Kubernetes Services : 1. Cluster IP Service :
+                                           2. Node Port Service:
+                                           3. Load Balancer Service:
+                                           4. Ingress Service :
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What are the Kubernetes deployment types?
+Top Kubernetes Deployment Strategies
+Recreate Deployment. A recreate deployment strategy is an all-or-nothing process that lets you update an application immediately, with some downtime. ...
+Rolling Deployment. ...
+Blue/Green Deployment (Red/Black Deployment) ...
+Canary Deployment. ..
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CI/CD Process :
+
+For ci/cd Process in Gcp We are using ,1:Google cloud source repos(for VCS).
+                                                                            2:cloud build(its a ci/cd tool)
+                                                                             3:GCR & GAR (storing the images &artifacts)
+                                                                              4:App engine,cloud run,cloud function,gke or compute engine( those are the deployemnts tools)
+
+1. At first developer pushes their code to the their git repositorie, From their we will import the code into our google cloud source  repos by using git repository url (git cloning) or google integrating  git repos into gcsr repos(by suing sync option)
+2. Currently we are working Java Project
+3. Later, we will go for creating ci/cd pipelines i.e, CI/CD (Contnous integration and Continous Deployment) and we are creating the pipelines by using cloud build .yaml
+4. In CI (Build Pipeline), firstly we select the repository from where we are pulling the code (Google cloud sourse repos now our cloud in Gcsr .
+ 
+5:cloud build as a ci/cd Tool and its fully managed serversless tool .The cloud build import the code from gcsr ,bitbuket,git hub ,storage bukets.
+6: Triggers are created in cloud build based on the evnts like push to evnts,
+                                                                                                                        1:push to branch
+                                                                                                                         2:pust to tag
+                                                                                                                         3:push to pull Request
+  7:Once Trigger is created based on the event whnever the code comes into gcsr it invokes the trigger in cloud build .
+8: Next the build is done in cloud build the cloud build send Artifacts to the google  container registry or google Artifact regisrty .
+9: Then cloud build send a command to deployment unit to deploye artifact .
+10: The depolyment unit ( App Engine,GKE,GCE,cloud run) should take the updated artifact from  google  container registry or google Artifact regisrty .
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Command for Enableing the compute Engine Api:
+
+gcloud services enable compute.googleapis.com
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+What are the 3 types of Cloud Storage?
+
+There are three main cloud storage types: object storage, file storage, and block storage. Each offers its own advantages and has its own use cases.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+How many types of storage are there in GCP?
+
+Available storage classes
+
+Storage Class	Name for APIs and CLIs	Minimum storage duration
+Standard storage	STANDARD	                                 None             frequently acess the data
+Nearline storage	NEARLINE	                                 30 days           best for backups                           access once a month
+Coldline storage	COLDLINE	                                 90 days          best for disostor recovery          access once a quater
+Archive storage	ARCHIVE	                                                     365 days        longterm preservation of data   acess once a year
