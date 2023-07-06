@@ -1,0 +1,19 @@
+Git is a distributed version control system used for tracking changes in files and coordinating work among multiple people or teams collaborating on a software development project. It was created by Linus Torvalds, the same person who created the Linux operating system.
+
+Git allows developers to keep track of changes made to their code over time, allowing them to revert to previous versions if necessary, collaborate with others on the same project, and manage different branches of code development. It is widely used in the software development industry and is considered the de facto standard for version control.
+
+Some key concepts in Git include:
+
+Repository: A repository, often referred to as a "repo," is a collection of files and folders where the version-controlled code is stored. It can be hosted locally or on a remote server.
+
+Commit: A commit represents a snapshot of the code at a specific point in time. It captures the changes made to the files in the repository and includes a commit message describing the changes.
+
+Branch: A branch is a separate line of development in a Git repository. It allows developers to work on different features or bug fixes concurrently without affecting the main codebase. Branches can be merged back into the main codebase when the changes are ready.
+
+Merge: Merging is the process of combining changes from one branch into another. It typically involves integrating the changes made in a feature branch back into the main branch.
+
+Pull Request: A pull request is a feature commonly used in Git repositories hosted on platforms like GitHub or GitLab. It allows developers to propose changes made in their branch to be merged into another branch. Pull requests facilitate code review and collaboration among team members.
+
+Clone: Cloning creates a local copy of a remote repository on your machine. It allows you to work with the code locally, make changes, and synchronize with the remote repository when necessary.
+
+Git provides a powerful set of commands and features to manage version control efficiently. It is widely supported across different operating systems and has become an integral part of modern software development workflows.
