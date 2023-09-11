@@ -12,4 +12,4 @@ steps:
   - --filename=pp.yaml
   - --image=gcr.io/teja-gcp99/sasuke:v4
   - --location=us-central1-c
-  - --cluster=ramudu
+  - --cluster=raju08
