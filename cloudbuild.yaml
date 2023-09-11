@@ -1,0 +1,15 @@
+steps:
+  # build the container image
+- name: "gcr.io/cloud-builders/docker"
+  args: ["build", "-t", "gcr.io/teja-gcp99/sasuke:v4", "."]
+  # push container image
+- name: "gcr.io/cloud-builders/docker"
+  args: ["push", "gcr.io/teja-gcp99/sasuke:v4"]
+  # deploy container image to GKE
+- name: "gcr.io/cloud-builders/gke-deploy"
+  args:
+  - run
+  - --filename=pp.yaml
+  - --image=gcr.io/teja-gcp99/sasuke:v4
+  - --location=us-central1-c
+  - --cluster=ramudu
